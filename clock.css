@@ -33,3 +33,13 @@ body{
     transform: rotate(90deg);
     transition-delay:  0.5s;
 }
+@media screen and (max-width: 500px){
+    .clock{
+        width: 80vw;
+        height: 70vh;
+    }
+    .clock-face{
+        width: 200px;
+        height: 200px;
+    }
+}
